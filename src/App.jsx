@@ -22,8 +22,8 @@ function App() {
         <img src={moodengImage} alt="moodeng" width={level + 300} height={level + 175} />
       </div>
       <img src={WaterMelon} alt="แตงโม" onClick={() => setLevel((level) => level + 5)} style={{ cursor: 'pointer', width: '100px', margin: '10px' }}/>
-      <img src={Pumpkin} alt="ฟักทอง" onClick={() => setLevel((level) => level + 5)} style={{ cursor: 'pointer', width: '100px', margin: '10px' }}/>
-      <img src={Grass} alt="หญ้า" onClick={() => setLevel((level) => level + 5)} style={{ cursor: 'pointer', width: '100px', margin: '10px' }}/>
+      <img src={Pumpkin} alt="ฟักทอง" onClick={() => setLevel((level) => level + 10)} style={{ cursor: 'pointer', width: '100px', margin: '10px' }}/>
+      <img src={Grass} alt="หญ้า" onClick={() => setLevel((level) => level + 20)} style={{ cursor: 'pointer', width: '100px', margin: '10px' }}/>
     </>
   )
 }
